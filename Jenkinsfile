@@ -2,7 +2,7 @@
   stage 'Build and Test'
     git 'https://github.com/jober64/Liberty.git'
     env.PATH = "${tool 'Maven 3'}/bin:${env.PATH}"
-    sh 'mvn clean package'
+    sh 'mvn -f Hello/pom.xml clean package'
   stage 'Deploy'
 
  }
