@@ -6,4 +6,8 @@
 
   stage 'Deploy'
     sh 'cp Hello/target/*.war /opt/app/wlp/usr/servers/defaultServer/dropins/'
+  stage 'Deploy'
+    sh 'cp Hello/target/*.war /opt/app/wlp/usr/servers/defaultServer/dropins/'
+  stage 'Deploy'
+    sh 'cp Hello/target/*.war /opt/app/wlp/usr/servers/defaultServer/dropins/'
  }
